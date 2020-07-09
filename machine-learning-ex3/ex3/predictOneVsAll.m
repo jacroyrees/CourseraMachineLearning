@@ -30,6 +30,10 @@ X = [ones(m, 1) X];
 %       for each row.
 %       
 
+prob_mat = X * all_theta';     
+  [prob, p] = max(prob_mat,[],2); 
+
+
 
 
 
